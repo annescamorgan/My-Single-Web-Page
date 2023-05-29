@@ -1,0 +1,44 @@
+body {
+    background-color:lightblue;
+}
+h1 {
+    color:darkblue;
+}
+p {
+    color: Black
+}
+
+table{
+    width: 400px;
+}
+
+th{
+    text align: left;
+}
+
+table, th, td {
+    
+border: 1px solid #000;
+border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px
+}
+
+th:nth-child(even){
+    background-color: light red;
+}
+
+th:nth-child(odd) {
+    background-color: light red;
+}
+td:nth-child(even){
+    background-color: green;
+}
+
+td:nth-child(odd) {
+    background-color: purple;
+}
+
+
